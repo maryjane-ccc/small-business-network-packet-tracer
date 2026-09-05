@@ -30,9 +30,10 @@ WAN/ISP Transit
   ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/25016c6419e1f31b30da7da52937d3e65ca6aacd/Connectivity%20test.png)
 - Default gateway assignment ✓
   ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/25087b576f393ec5996494e3595a52220c078972/Router%20Interfaces.png)
-- Inter-network connectivity ✓
-- Wireless connectivity ✓
-- ISP link connectivity ✓
+- DHCP Implementation ✓
+  ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/4e89ee24a69652721c17d07f41a5c0d67242e45d/DHCP%20working.png)
+- Logical View Diagram ✓
+  ![image alt]
 
 ## Future Improvements
 - DNS
