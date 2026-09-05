@@ -27,7 +27,9 @@ WAN/ISP Transit
 
 ## Testing
 - Connectivity Tests ✓
+  ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/25016c6419e1f31b30da7da52937d3e65ca6aacd/Connectivity%20test.png)
 - Default gateway assignment ✓
+  ![image alt]
 - Inter-network connectivity ✓
 - Wireless connectivity ✓
 - ISP link connectivity ✓
