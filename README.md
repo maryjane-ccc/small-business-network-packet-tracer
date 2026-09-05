@@ -33,7 +33,7 @@ WAN/ISP Transit
 - DHCP Implementation ✓
   ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/4e89ee24a69652721c17d07f41a5c0d67242e45d/DHCP%20working.png)
 - Logical View Diagram ✓
-  ![image alt]
+  ![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/1347e585e29a9cf30103dd49a8ac8138d0fa1bd3/Full%20Topology.png)
 
 ## Future Improvements
 - DNS
