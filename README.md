@@ -1,6 +1,8 @@
 # small-business-network-packet-tracer
 Design and configuration of a small-business network supporting two separate LANs, DHCP, wireless connectivity and ISP connectivity.
 
+[Packet Tracer Link](https://drive.google.com/file/d/1ID1jfu9QwHtMZXTLU9oJdfvh_a6n61VS/view?usp=drive_link)
+
 **Network Architecture**
 
 LAN 1
@@ -24,7 +26,7 @@ WAN/ISP Transit
 - Packet Tracer
 
 ## Testing
-- DHCP address assignment ✓
+- Connectivity Tests ✓
 - Default gateway assignment ✓
 - Inter-network connectivity ✓
 - Wireless connectivity ✓
