@@ -38,6 +38,7 @@ The router is also connected to a simulated ISP through the `10.0.0.0/30` transi
 - ISP Router: `10.0.0.2/30`
 
 An external network is used to simulate communication beyond the organization's internal network.
+![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/68e2158e25f279c6a98500de8d97c9bd1b9af022/Network%20Topology.png)
 
 ---
 
