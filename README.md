@@ -109,6 +109,7 @@ An A record was created to map:
 The DNS server address is distributed automatically to clients through the DHCP pools.
 
 This allows users to access network services using domain names instead of remembering individual IP addresses.
+![DNS Test](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/6d66ce3d0975661afb64746aba73d35c8ee0f41f/DNS%20Test.png)
 
 ---
 
