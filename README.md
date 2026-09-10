@@ -86,6 +86,7 @@ Access ports on the switch were assigned to their appropriate VLANs.
 An 802.1Q trunk connects the switch to R1 and carries traffic belonging to VLANs 10, 20, 30, and 40.
 
 Router subinterfaces provide a default gateway for each VLAN and allow inter-VLAN routing.
+![VLAN Trunk](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/4003e1ffcfa194f3ac491f2bcdffd1894b85ab4f/VLAN%20Trunk.png)
 
 ---
 
