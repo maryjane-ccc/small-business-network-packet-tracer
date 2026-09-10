@@ -133,6 +133,7 @@ A default route was also configured:
 `0.0.0.0/0 → 10.0.0.2`
 
 This directs traffic for unknown external destinations toward the simulated ISP.
+![NATPAT Translations](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/dd73c92d74549778b60096f0b91f32ab6e356780/NATPAT%20Translations.png)
 
 ---
 
