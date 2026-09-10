@@ -38,7 +38,6 @@ The router is also connected to a simulated ISP through the `10.0.0.0/30` transi
 - ISP Router: `10.0.0.2/30`
 
 An external network is used to simulate communication beyond the organization's internal network.
-![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/68e2158e25f279c6a98500de8d97c9bd1b9af022/Network%20Topology.png)
 
 ---
 
@@ -58,6 +57,7 @@ The initial network configuration included:
 DHCP is configured on R1 to automatically assign network information to client devices.
 
 Reserved addresses are excluded from the DHCP pools so they can be used for gateways, servers, and other infrastructure devices.
+![image alt](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/68e2158e25f279c6a98500de8d97c9bd1b9af022/Network%20Topology.png)
 
 ---
 
@@ -86,7 +86,6 @@ Access ports on the switch were assigned to their appropriate VLANs.
 An 802.1Q trunk connects the switch to R1 and carries traffic belonging to VLANs 10, 20, 30, and 40.
 
 Router subinterfaces provide a default gateway for each VLAN and allow inter-VLAN routing.
-![VLAN Trunk](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/4003e1ffcfa194f3ac491f2bcdffd1894b85ab4f/VLAN%20Trunk.png)
 
 ---
 
@@ -109,7 +108,6 @@ An A record was created to map:
 The DNS server address is distributed automatically to clients through the DHCP pools.
 
 This allows users to access network services using domain names instead of remembering individual IP addresses.
-![DNS Test](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/6d66ce3d0975661afb64746aba73d35c8ee0f41f/DNS%20Test.png)
 
 ---
 
@@ -133,7 +131,6 @@ A default route was also configured:
 `0.0.0.0/0 → 10.0.0.2`
 
 This directs traffic for unknown external destinations toward the simulated ISP.
-![NATPAT Translations](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/dd73c92d74549778b60096f0b91f32ab6e356780/NATPAT%20Translations.png)
 
 ---
 
@@ -175,7 +172,6 @@ Staff devices are prevented from:
 The Management VLAN maintains broad access to the network for administrative purposes.
 
 No inbound ACL is currently applied to the Management VLAN.
-
 ---
 
 ## Testing & Verification
@@ -196,6 +192,7 @@ from their appropriate DHCP pools.
 ### Inter-VLAN Routing Testing
 
 Connectivity tests were performed between VLANs to verify router-on-a-stick and 802.1Q trunking.
+![VLAN Trunk](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/4003e1ffcfa194f3ac491f2bcdffd1894b85ab4f/VLAN%20Trunk.png)
 
 ### DNS Testing
 
@@ -206,6 +203,7 @@ Clients successfully resolved:
 to:
 
 `192.168.30.2`
+![DNS Test](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/6d66ce3d0975661afb64746aba73d35c8ee0f41f/DNS%20Test.png)
 
 ### NAT/PAT Testing
 
@@ -218,6 +216,7 @@ NAT operation was verified using:
 and:
 
 `show ip nat statistics`
+![NATPAT Translations](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/dd73c92d74549778b60096f0b91f32ab6e356780/NATPAT%20Translations.png)
 
 ### ACL Testing
 
@@ -233,6 +232,8 @@ Testing confirmed that:
 - Staff cannot access Guest or Management resources.
 
 ACL match counters were also used to confirm that traffic was being processed by the intended rules.
+![ACL Test](https://github.com/maryjane-ccc/small-business-network-packet-tracer/blob/156d4ada3fc12492b257ae495d19f6eef4f5d134/ACL%20Testing.png)
+
 
 ---
 
@@ -243,7 +244,6 @@ The next phase of the project will focus on network monitoring and additional se
 Planned improvements include:
 
 - Centralized Syslog logging
-- Network Time Protocol (NTP)
 - Security event monitoring
 
 ---
@@ -289,4 +289,4 @@ Current implementation:
 
 Next phase:
 
-`Security Monitoring → Syslog/NTP → Network Hardening`
+`Security Monitoring → Syslog/NTP`
